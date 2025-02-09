@@ -1,0 +1,643 @@
+[
+    {
+        "id": "Traffic_Lanes",
+        "name": "Traffic Lanes",
+        "age": "Progressive Era",
+        "needed_fp": "75",
+        "requires": [
+            "Infrastructure"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "225,000",
+            "goods": [
+                {
+                    "good": "Basalt",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Tar",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Tarmac Road",
+            "Promenade",
+            "Urban Tree"
+        ],
+        "required_by": [
+            "Mass Manufacturing",
+            "Modern Explosives",
+            "Oil Refining",
+            "Modern Materials"
+        ]
+    },
+    {
+        "id": "Mass_Manufacturing",
+        "name": "Mass Manufacturing",
+        "age": "Progressive Era",
+        "needed_fp": "55",
+        "requires": [
+            "Traffic Lanes"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "75,000",
+            "goods": [
+                {
+                    "good": "Brass",
+                    "quantity": "130"
+                },
+                {
+                    "good": "Wire",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Machine Workshop"
+        ],
+        "required_by": [
+            "Electricity"
+        ]
+    },
+    {
+        "id": "Modern_Explosives",
+        "name": "Modern Explosives",
+        "age": "Progressive Era",
+        "needed_fp": "55",
+        "requires": [
+            "Traffic Lanes"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "75,000",
+            "goods": [
+                {
+                    "good": "Gunpowder",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Fertilizer",
+                    "quantity": "75"
+                }
+            ]
+        },
+        "provides": [
+            "Explosives Factory"
+        ],
+        "required_by": [
+            "Percussion Fuze"
+        ]
+    },
+    {
+        "id": "Oil_Refining",
+        "name": "Oil Refining",
+        "age": "Progressive Era",
+        "needed_fp": "55",
+        "requires": [
+            "Traffic Lanes"
+        ],
+        "unlock_costs": {
+            "coins": "50,000",
+            "supplies": "25,000",
+            "goods": [
+                {
+                    "good": "Porcelain",
+                    "quantity": "110"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Oil Refinery"
+        ],
+        "required_by": [
+            "Automobiles",
+            "Urbanization"
+        ]
+    },
+    {
+        "id": "Modern_Materials",
+        "name": "Modern Materials",
+        "age": "Progressive Era",
+        "needed_fp": "85",
+        "requires": [
+            "Traffic Lanes"
+        ],
+        "unlock_costs": {
+            "coins": "75,000",
+            "supplies": "75,000",
+            "goods": [
+                {
+                    "good": "Talc Powder",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Asbestos Factory",
+            "Tinning Plant"
+        ],
+        "required_by": [
+            "Urbanization",
+            "Tenement Houses"
+        ]
+    },
+    {
+        "id": "Electricity",
+        "name": "Electricity",
+        "age": "Progressive Era",
+        "needed_fp": "90",
+        "requires": [
+            "Mass Manufacturing"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Wire",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Brass",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Electrical Plant"
+        ],
+        "required_by": [
+            "Power Distribution"
+        ]
+    },
+    {
+        "id": "Percussion_Fuze",
+        "name": "Percussion Fuze",
+        "age": "Progressive Era",
+        "needed_fp": "48",
+        "requires": [
+            "Modern Explosives"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "90,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Machine Parts",
+                    "quantity": "20"
+                }
+            ]
+        },
+        "provides": [
+            "Ordnance Factory"
+        ],
+        "required_by": [
+            "Council Houses"
+        ]
+    },
+    {
+        "id": "Automobiles",
+        "name": "Automobiles",
+        "age": "Progressive Era",
+        "needed_fp": "74",
+        "requires": [
+            "Oil Refining"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Garage"
+        ],
+        "required_by": [
+            "Armor Plating"
+        ]
+    },
+    {
+        "id": "Urbanization",
+        "name": "Urbanization",
+        "age": "Progressive Era",
+        "needed_fp": "35",
+        "requires": [
+            "Oil Refining",
+            "Modern Materials"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "90,000",
+            "goods": [
+                {
+                    "good": "Coffee",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Whale Oil",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Journalism"
+        ]
+    },
+    {
+        "id": "Tenement_Houses",
+        "name": "Tenement Houses",
+        "age": "Progressive Era",
+        "needed_fp": "51",
+        "requires": [
+            "Modern Materials"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "120,000",
+            "goods": [
+                {
+                    "good": "Talc Powder",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Whale Oil",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Tenement House",
+            "Billboard"
+        ],
+        "required_by": [
+            "Ranching"
+        ]
+    },
+    {
+        "id": "Power_Distribution",
+        "name": "Power Distribution",
+        "age": "Progressive Era",
+        "needed_fp": "43",
+        "requires": [
+            "Electricity"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "100,000",
+            "goods": [
+                {
+                    "good": "Wire",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Lamp Factory"
+        ],
+        "required_by": [
+            "Public Transport"
+        ]
+    },
+    {
+        "id": "Council_Houses",
+        "name": "Council Houses",
+        "age": "Progressive Era",
+        "needed_fp": "65",
+        "requires": [
+            "Percussion Fuze"
+        ],
+        "unlock_costs": {
+            "coins": "40,000",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Talc Powder",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Porcelain",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Council House",
+            "Water Tower"
+        ],
+        "required_by": [
+            "Public Transport"
+        ]
+    },
+    {
+        "id": "Armor_Plating",
+        "name": "Armor Plating",
+        "age": "Progressive Era",
+        "needed_fp": "53",
+        "requires": [
+            "Automobiles"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Tinplate",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "40"
+                }
+            ]
+        },
+        "provides": [
+            "Armored Car Factory"
+        ],
+        "required_by": [
+            "Tracked Vehicles"
+        ]
+    },
+    {
+        "id": "Journalism",
+        "name": "Journalism",
+        "age": "Progressive Era",
+        "needed_fp": "68",
+        "requires": [
+            "Urbanization"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Paper",
+                    "quantity": "220"
+                },
+                {
+                    "good": "Silk",
+                    "quantity": "150"
+                }
+            ]
+        },
+        "provides": [
+            "Publishing House"
+        ],
+        "required_by": [
+            "Mass Mobilization"
+        ]
+    },
+    {
+        "id": "Ranching",
+        "name": "Ranching",
+        "age": "Progressive Era",
+        "needed_fp": "47",
+        "requires": [
+            "Tenement Houses"
+        ],
+        "unlock_costs": {
+            "coins": "50,000",
+            "supplies": "75,000",
+            "goods": [
+                {
+                    "good": "Fertilizer",
+                    "quantity": "200"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Cattle Ranch"
+        ],
+        "required_by": [
+            "Mass Mobilization"
+        ]
+    },
+    {
+        "id": "Public_Transport",
+        "name": "Public Transport",
+        "age": "Progressive Era",
+        "needed_fp": "73",
+        "requires": [
+            "Power Distribution",
+            "Council Houses"
+        ],
+        "unlock_costs": {
+            "coins": "18,000",
+            "supplies": "90,000",
+            "goods": [
+                {
+                    "good": "Tar",
+                    "quantity": "220"
+                },
+                {
+                    "good": "Machine Parts",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Metro Entrance"
+        ],
+        "required_by": [
+            "High-Rises"
+        ]
+    },
+    {
+        "id": "Tracked_Vehicles",
+        "name": "Tracked Vehicles",
+        "age": "Progressive Era",
+        "needed_fp": "88",
+        "requires": [
+            "Armor Plating"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "110"
+                },
+                {
+                    "good": "Explosives",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Tank Factory"
+        ],
+        "required_by": [
+            "Scoped Rifles"
+        ]
+    },
+    {
+        "id": "Mass_Mobilization",
+        "name": "Mass Mobilization",
+        "age": "Progressive Era",
+        "needed_fp": "88",
+        "requires": [
+            "Journalism",
+            "Ranching"
+        ],
+        "unlock_costs": {
+            "coins": "150,000",
+            "supplies": "100,000",
+            "goods": [
+                {
+                    "good": "Textiles",
+                    "quantity": "230"
+                },
+                {
+                    "good": "Coffee",
+                    "quantity": "230"
+                }
+            ]
+        },
+        "provides": [
+            "Conscription Office"
+        ],
+        "required_by": [
+            "Antibiotics"
+        ]
+    },
+    {
+        "id": "High-Rises",
+        "name": "High-Rises",
+        "age": "Progressive Era",
+        "needed_fp": "98",
+        "requires": [
+            "Public Transport"
+        ],
+        "unlock_costs": {
+            "coins": "11,111",
+            "supplies": "111,111",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Tinplate",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "High-Rise",
+            "Newspaper Stand"
+        ],
+        "required_by": [
+            "Recreation"
+        ]
+    },
+    {
+        "id": "Scoped_Rifles",
+        "name": "Scoped Rifles",
+        "age": "Progressive Era",
+        "needed_fp": "53",
+        "requires": [
+            "Tracked Vehicles"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "25,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "Sniper Camp"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Antibiotics",
+        "name": "Antibiotics",
+        "age": "Progressive Era",
+        "needed_fp": "79",
+        "requires": [
+            "Mass Mobilization"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "180,000",
+            "goods": [
+                {
+                    "good": "Porcelain",
+                    "quantity": "190"
+                },
+                {
+                    "good": "Tinplate",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Recreation"
+        ]
+    },
+    {
+        "id": "Recreation",
+        "name": "Recreation",
+        "age": "Progressive Era",
+        "needed_fp": "52",
+        "requires": [
+            "Antibiotics",
+            "High-Rises"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "City Park"
+        ],
+        "required_by": [
+            "Prefabrication",
+            "Autobahns",
+            "Food Processing"
+        ]
+    }
+]

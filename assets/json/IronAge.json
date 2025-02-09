@@ -1,0 +1,480 @@
+[
+    {
+        "id": "Roof_Tile_Houses",
+        "name": "Roof Tile Houses",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Paths",
+            "Siege Weapons"
+        ],
+        "unlock_costs": {
+            "coins": "250",
+            "supplies": "100",
+            "goods": []
+        },
+        "provides": [
+            "Roof Tile House",
+            "Flower Tub",
+            "Historical Allies"
+        ],
+        "required_by": [
+            "Stock Breeding",
+            "Processions"
+        ]
+    },
+    {
+        "id": "Architecture",
+        "name": "Architecture",
+        "age": "Iron Age",
+        "needed_fp": "12",
+        "requires": [
+            "Siege Weapons",
+            "Brewing"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Stone",
+                    "quantity": "5"
+                }
+            ]
+        },
+        "provides": [
+            "Great Buildings"
+        ],
+        "required_by": [
+            "Processions",
+            "Processing"
+        ]
+    },
+    {
+        "id": "Militia",
+        "name": "Militia",
+        "age": "Iron Age",
+        "needed_fp": "14",
+        "requires": [
+            "Brewing",
+            "Manuring"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Wine",
+                    "quantity": "8"
+                }
+            ]
+        },
+        "provides": [
+            "Soldier Barracks",
+            "Daily Challenges"
+        ],
+        "required_by": [
+            "Processing",
+            "Iron Works",
+            "Handicraft"
+        ]
+    },
+    {
+        "id": "Stock_Breeding",
+        "name": "Stock Breeding",
+        "age": "Iron Age",
+        "needed_fp": "12",
+        "requires": [
+            "Roof Tile Houses"
+        ],
+        "unlock_costs": {
+            "coins": "300",
+            "supplies": "250",
+            "goods": []
+        },
+        "provides": [
+            "Goat Farm"
+        ],
+        "required_by": [
+            "Agriculture",
+            "Cottage"
+        ]
+    },
+    {
+        "id": "Processions",
+        "name": "Processions",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Roof Tile Houses",
+            "Architecture"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Dye",
+                    "quantity": "12"
+                }
+            ]
+        },
+        "provides": [
+            "Triumphal Arch",
+            "Monument",
+            "Special Events"
+        ],
+        "required_by": [
+            "Cottage",
+            "Archery"
+        ]
+    },
+    {
+        "id": "Processing",
+        "name": "Processing",
+        "age": "Iron Age",
+        "needed_fp": "11",
+        "requires": [
+            "Architecture",
+            "Militia"
+        ],
+        "unlock_costs": {
+            "coins": "600",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Limestone Mason",
+            "Ebony Woodworks"
+        ],
+        "required_by": [
+            "Archery"
+        ]
+    },
+    {
+        "id": "Iron_Works",
+        "name": "Iron Works",
+        "age": "Iron Age",
+        "needed_fp": "6",
+        "requires": [
+            "Militia"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "1,500",
+            "goods": []
+        },
+        "provides": [
+            "Iron Foundry"
+        ],
+        "required_by": [
+            "Sewerage"
+        ]
+    },
+    {
+        "id": "Handicraft",
+        "name": "Handicraft",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Militia"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Jewelry Manufacturer",
+            "Weaving Mill"
+        ],
+        "required_by": [
+            "Sewerage"
+        ]
+    },
+    {
+        "id": "Agriculture",
+        "name": "Agriculture",
+        "age": "Iron Age",
+        "needed_fp": "11",
+        "requires": [
+            "Stock Breeding"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Lumber",
+                    "quantity": "30"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Cottage",
+        "name": "Cottage",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Stock Breeding",
+            "Processions"
+        ],
+        "unlock_costs": {
+            "coins": "600",
+            "supplies": "1,250",
+            "goods": []
+        },
+        "provides": [
+            "Cottage"
+        ],
+        "required_by": [
+            "Butchery",
+            "Military Tactics",
+            "Fortification"
+        ]
+    },
+    {
+        "id": "Archery",
+        "name": "Archery",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Processions",
+            "Processing"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Marble",
+                    "quantity": "16"
+                }
+            ]
+        },
+        "provides": [
+            "Archery Range"
+        ],
+        "required_by": [
+            "Military Tactics",
+            "Fortification"
+        ]
+    },
+    {
+        "id": "Sewerage",
+        "name": "Sewerage",
+        "age": "Iron Age",
+        "needed_fp": "5",
+        "requires": [
+            "Iron Works",
+            "Handicraft"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "750",
+            "goods": [
+                {
+                    "good": "Dye",
+                    "quantity": "15"
+                },
+                {
+                    "good": "Limestone",
+                    "quantity": "3"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Butchery",
+        "name": "Butchery",
+        "age": "Iron Age",
+        "needed_fp": "16",
+        "requires": [
+            "Cottage"
+        ],
+        "unlock_costs": {
+            "coins": "100",
+            "supplies": "2,500",
+            "goods": []
+        },
+        "provides": [
+            "Butcher"
+        ],
+        "required_by": [
+            "Mathematics"
+        ]
+    },
+    {
+        "id": "Military_Tactics",
+        "name": "Military Tactics",
+        "age": "Iron Age",
+        "needed_fp": "22",
+        "requires": [
+            "Cottage",
+            "Archery"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "2,000",
+            "goods": []
+        },
+        "provides": [
+            "Mounted Warrior Stable",
+            "PvP Fights",
+            "Guild Battlegrounds"
+        ],
+        "required_by": [
+            "Mathematics",
+            "Thermae"
+        ]
+    },
+    {
+        "id": "Fortification",
+        "name": "Fortification",
+        "age": "Iron Age",
+        "needed_fp": "13",
+        "requires": [
+            "Cottage",
+            "Archery"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "1,400",
+            "goods": [
+                {
+                    "good": "Stone",
+                    "quantity": "20"
+                },
+                {
+                    "good": "Ebony",
+                    "quantity": "4"
+                }
+            ]
+        },
+        "provides": [
+            "Gravel Road"
+        ],
+        "required_by": [
+            "Thermae",
+            "Plowing",
+            "Chain of Command"
+        ]
+    },
+    {
+        "id": "Mathematics",
+        "name": "Mathematics",
+        "age": "Iron Age",
+        "needed_fp": "20",
+        "requires": [
+            "Butchery",
+            "Military Tactics"
+        ],
+        "unlock_costs": {
+            "coins": "2,000",
+            "supplies": "1,500",
+            "goods": []
+        },
+        "provides": [
+            "Ballista Camp",
+            "Reconstruction Mode"
+        ],
+        "required_by": [
+            "Frame Houses",
+            "Tanning"
+        ]
+    },
+    {
+        "id": "Thermae",
+        "name": "Thermae",
+        "age": "Iron Age",
+        "needed_fp": "17",
+        "requires": [
+            "Military Tactics",
+            "Fortification"
+        ],
+        "unlock_costs": {
+            "coins": "600",
+            "supplies": "750",
+            "goods": [
+                {
+                    "good": "Marble",
+                    "quantity": "21"
+                },
+                {
+                    "good": "Cloth",
+                    "quantity": "11"
+                }
+            ]
+        },
+        "provides": [
+            "Public Bath",
+            "Fountain"
+        ],
+        "required_by": [
+            "Frame Houses"
+        ]
+    },
+    {
+        "id": "Plowing",
+        "name": "Plowing",
+        "age": "Iron Age",
+        "needed_fp": "15",
+        "requires": [
+            "Fortification"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Lumber",
+                    "quantity": "30"
+                },
+                {
+                    "good": "Iron",
+                    "quantity": "13"
+                }
+            ]
+        },
+        "provides": [
+            "Settlements"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Chain_of_Command",
+        "name": "Chain of Command",
+        "age": "Iron Age",
+        "needed_fp": "17",
+        "requires": [
+            "Fortification"
+        ],
+        "unlock_costs": {
+            "coins": "600",
+            "supplies": "1,100",
+            "goods": [
+                {
+                    "good": "Wine",
+                    "quantity": "50"
+                },
+                {
+                    "good": "Jewelry",
+                    "quantity": "16"
+                }
+            ]
+        },
+        "provides": [
+            "Legionnaire Barracks",
+            "Quantum Incursions"
+        ],
+        "required_by": [
+            "Tanning",
+            "Multistory Houses"
+        ]
+    }
+]

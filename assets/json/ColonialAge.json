@@ -1,0 +1,543 @@
+[
+    {
+        "id": "Porcelain",
+        "name": "Porcelain",
+        "age": "Colonial Age",
+        "needed_fp": "37",
+        "requires": [
+            "Apartment Houses"
+        ],
+        "unlock_costs": {
+            "coins": "2,000",
+            "supplies": "20,000",
+            "goods": []
+        },
+        "provides": [
+            "Porcelain Manufactory"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Muskets",
+        "name": "Muskets",
+        "age": "Colonial Age",
+        "needed_fp": "56",
+        "requires": [
+            "Apartment Houses"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "10,000",
+            "goods": [
+                {
+                    "good": "Gunpowder",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Brass",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Musketeer Range"
+        ],
+        "required_by": [
+            "Colonies"
+        ]
+    },
+    {
+        "id": "Maritime_Shipping",
+        "name": "Maritime Shipping",
+        "age": "Colonial Age",
+        "needed_fp": "38",
+        "requires": [
+            "Gunpowder"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "25,000",
+            "goods": [
+                {
+                    "good": "Rope",
+                    "quantity": "110"
+                },
+                {
+                    "good": "Honey",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "Sailmaker",
+            "Neptune Fountain"
+        ],
+        "required_by": [
+            "Colonies"
+        ]
+    },
+    {
+        "id": "Industrial_Goods",
+        "name": "Industrial Goods",
+        "age": "Colonial Age",
+        "needed_fp": "55",
+        "requires": [
+            "Gunpowder"
+        ],
+        "unlock_costs": {
+            "coins": "3,500",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [
+            "Wiremill",
+            "Tar Kiln"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Colonies",
+        "name": "Colonies",
+        "age": "Colonial Age",
+        "needed_fp": "36",
+        "requires": [
+            "Maritime Shipping",
+            "Muskets"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Salt",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Glass",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Exotic Goods Vendor",
+            "Paved Lane",
+            "Cultural Settlements Aztecs"
+        ],
+        "required_by": [
+            "Arcade Houses",
+            "Plantation Goods",
+            "New Crops",
+            "Exploration"
+        ]
+    },
+    {
+        "id": "Arcade_Houses",
+        "name": "Arcade Houses",
+        "age": "Colonial Age",
+        "needed_fp": "54",
+        "requires": [
+            "Colonies"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "12,000",
+            "goods": [
+                {
+                    "good": "Basalt",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Brick",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Arcade House",
+            "Eagle Hedge"
+        ],
+        "required_by": [
+            "Fashion"
+        ]
+    },
+    {
+        "id": "Plantation_Goods",
+        "name": "Plantation Goods",
+        "age": "Colonial Age",
+        "needed_fp": "35",
+        "requires": [
+            "Colonies"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "15,000",
+            "goods": [
+                {
+                    "good": "Dried Herbs",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Coffee Roaster",
+            "Paper Mill"
+        ],
+        "required_by": [
+            "Plantations"
+        ]
+    },
+    {
+        "id": "New_Crops",
+        "name": "New Crops",
+        "age": "Colonial Age",
+        "needed_fp": "73",
+        "requires": [
+            "Colonies"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "25,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Plantations",
+            "Trading Charters"
+        ]
+    },
+    {
+        "id": "Exploration",
+        "name": "Exploration",
+        "age": "Colonial Age",
+        "needed_fp": "58",
+        "requires": [
+            "Colonies"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "18,000",
+            "goods": [
+                {
+                    "good": "Gold",
+                    "quantity": "40"
+                },
+                {
+                    "good": "Tar",
+                    "quantity": "20"
+                }
+            ]
+        },
+        "provides": [
+            "Ranger Encampment",
+            "Kite"
+        ],
+        "required_by": [
+            "Trading Charters"
+        ]
+    },
+    {
+        "id": "Fashion",
+        "name": "Fashion",
+        "age": "Colonial Age",
+        "needed_fp": "59",
+        "requires": [
+            "Arcade Houses"
+        ],
+        "unlock_costs": {
+            "coins": "18,000",
+            "supplies": "18,000",
+            "goods": [
+                {
+                    "good": "Silk",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Talc Powder",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Coiffeur"
+        ],
+        "required_by": [
+            "Rapid Response"
+        ]
+    },
+    {
+        "id": "Plantations",
+        "name": "Plantations",
+        "age": "Colonial Age",
+        "needed_fp": "53",
+        "requires": [
+            "Plantation Goods",
+            "New Crops"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "5,000",
+            "goods": [
+                {
+                    "good": "Granite",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Tar",
+                    "quantity": "20"
+                }
+            ]
+        },
+        "provides": [
+            "Tobacco Plantation"
+        ],
+        "required_by": [
+            "Country Houses"
+        ]
+    },
+    {
+        "id": "Trading_Charters",
+        "name": "Trading Charters",
+        "age": "Colonial Age",
+        "needed_fp": "43",
+        "requires": [
+            "New Crops",
+            "Exploration"
+        ],
+        "unlock_costs": {
+            "coins": "10,000",
+            "supplies": "15,000",
+            "goods": [
+                {
+                    "good": "Gold",
+                    "quantity": "20"
+                }
+            ]
+        },
+        "provides": [
+            "Trading Company",
+            "Globe Statue"
+        ],
+        "required_by": [
+            "Imperialism"
+        ]
+    },
+    {
+        "id": "Rapid_Response",
+        "name": "Rapid Response",
+        "age": "Colonial Age",
+        "needed_fp": "51",
+        "requires": [
+            "Fashion"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "8,000",
+            "goods": [
+                {
+                    "good": "Coffee",
+                    "quantity": "40"
+                },
+                {
+                    "good": "Copper",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Dragoon Stables"
+        ],
+        "required_by": [
+            "Malthusian Theory",
+            "Elite Forces"
+        ]
+    },
+    {
+        "id": "Country_Houses",
+        "name": "Country Houses",
+        "age": "Colonial Age",
+        "needed_fp": "38",
+        "requires": [
+            "Plantations"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [
+            "Country House",
+            "Peacock Hedge"
+        ],
+        "required_by": [
+            "Elite Forces",
+            "Clockmaking"
+        ]
+    },
+    {
+        "id": "Imperialism",
+        "name": "Imperialism",
+        "age": "Colonial Age",
+        "needed_fp": "58",
+        "requires": [
+            "Trading Charters"
+        ],
+        "unlock_costs": {
+            "coins": "8,000",
+            "supplies": "5,000",
+            "goods": [
+                {
+                    "good": "Porcelain",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Alabaster",
+                    "quantity": "120"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Clockmaking"
+        ]
+    },
+    {
+        "id": "Malthusian_Theory",
+        "name": "Malthusian Theory",
+        "age": "Colonial Age",
+        "needed_fp": "58",
+        "requires": [
+            "Rapid Response"
+        ],
+        "unlock_costs": {
+            "coins": "1,000",
+            "supplies": "2,500",
+            "goods": [
+                {
+                    "good": "Paper",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Gambrel Roof Houses"
+        ]
+    },
+    {
+        "id": "Elite_Forces",
+        "name": "Elite Forces",
+        "age": "Colonial Age",
+        "needed_fp": "45",
+        "requires": [
+            "Rapid Response",
+            "Country Houses"
+        ],
+        "unlock_costs": {
+            "coins": "1,337",
+            "supplies": "13,370",
+            "goods": [
+                {
+                    "good": "Silk",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Gold",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Grenadier Barracks"
+        ],
+        "required_by": [
+            "Gambrel Roof Houses",
+            "Field Artillery"
+        ]
+    },
+    {
+        "id": "Clockmaking",
+        "name": "Clockmaking",
+        "age": "Colonial Age",
+        "needed_fp": "45",
+        "requires": [
+            "Country Houses",
+            "Imperialism"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Wire",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Copper",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Clockmaker",
+            "Clock Tower"
+        ],
+        "required_by": [
+            "Field Artillery"
+        ]
+    },
+    {
+        "id": "Gambrel_Roof_Houses",
+        "name": "Gambrel Roof Houses",
+        "age": "Colonial Age",
+        "needed_fp": "68",
+        "requires": [
+            "Malthusian Theory",
+            "Elite Forces"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "75,000",
+            "goods": [
+                {
+                    "good": "Basalt",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Gambrel Roof House",
+            "Flamingo Hedge"
+        ],
+        "required_by": [
+            "Industrialization",
+            "Extraction"
+        ]
+    },
+    {
+        "id": "Field_Artillery",
+        "name": "Field Artillery",
+        "age": "Colonial Age",
+        "needed_fp": "40",
+        "requires": [
+            "Elite Forces",
+            "Clockmaking"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "25,000",
+            "goods": [
+                {
+                    "good": "Gunpowder",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Field Gun Camp"
+        ],
+        "required_by": [
+            "Industrialization",
+            "Extraction"
+        ]
+    }
+]

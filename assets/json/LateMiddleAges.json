@@ -1,0 +1,518 @@
+[
+    {
+        "id": "Metal_Working",
+        "name": "Metal Working",
+        "age": "Late Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Heavy Siege Engines"
+        ],
+        "unlock_costs": {
+            "coins": "15,000",
+            "supplies": "2,500",
+            "goods": []
+        },
+        "provides": [
+            "Brass Foundry"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Crane",
+        "name": "Crane",
+        "age": "Late Middle Ages",
+        "needed_fp": "52",
+        "requires": [
+            "Heavy Siege Engines"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "7,500",
+            "goods": []
+        },
+        "provides": [
+            "Talc Cutter",
+            "Basalt Mason"
+        ],
+        "required_by": [
+            "Cartography",
+            "Estate Houses",
+            "Great Swords"
+        ]
+    },
+    {
+        "id": "Biology",
+        "name": "Biology",
+        "age": "Late Middle Ages",
+        "needed_fp": "60",
+        "requires": [
+            "Hospitals"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "5,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Estate Houses",
+            "Great Swords"
+        ]
+    },
+    {
+        "id": "Aristocracy",
+        "name": "Aristocracy",
+        "age": "Late Middle Ages",
+        "needed_fp": "42",
+        "requires": [
+            "Hospitals"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "15,000",
+            "goods": []
+        },
+        "provides": [
+            "Gunpowder Manufactory",
+            "Silk Manufactory"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Cartography",
+        "name": "Cartography",
+        "age": "Late Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Crane"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "10,000",
+            "goods": [
+                {
+                    "good": "Rope",
+                    "quantity": "120"
+                },
+                {
+                    "good": "Gold",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Cartographer",
+            "Group of Trees"
+        ],
+        "required_by": [
+            "New Trade Routes"
+        ]
+    },
+    {
+        "id": "Estate_Houses",
+        "name": "Estate Houses",
+        "age": "Late Middle Ages",
+        "needed_fp": "60",
+        "requires": [
+            "Crane",
+            "Biology"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "5,000",
+            "goods": [
+                {
+                    "good": "Brick",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Honey",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Estate House"
+        ],
+        "required_by": [
+            "Water Reservoirs"
+        ]
+    },
+    {
+        "id": "Great_Swords",
+        "name": "Great Swords",
+        "age": "Late Middle Ages",
+        "needed_fp": "58",
+        "requires": [
+            "Crane",
+            "Biology"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "15,000",
+            "goods": [
+                {
+                    "good": "Dried Herbs",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Copper",
+                    "quantity": "150"
+                }
+            ]
+        },
+        "provides": [
+            "Great Sword Warrior Barracks"
+        ],
+        "required_by": [
+            "Longbows",
+            "Manufacturing"
+        ]
+    },
+    {
+        "id": "New_Trade_Routes",
+        "name": "New Trade Routes",
+        "age": "Late Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Cartography"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Salt",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Granite",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Intelligence"
+        ]
+    },
+    {
+        "id": "Water_Reservoirs",
+        "name": "Water Reservoirs",
+        "age": "Late Middle Ages",
+        "needed_fp": "35",
+        "requires": [
+            "Estate Houses"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "40,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Intelligence"
+        ]
+    },
+    {
+        "id": "Longbows",
+        "name": "Longbows",
+        "age": "Late Middle Ages",
+        "needed_fp": "65",
+        "requires": [
+            "Great Swords"
+        ],
+        "unlock_costs": {
+            "coins": "15,000",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [
+            "Longbow Archer Range"
+        ],
+        "required_by": [
+            "Cavalry Tactics",
+            "Letterpress"
+        ]
+    },
+    {
+        "id": "Manufacturing",
+        "name": "Manufacturing",
+        "age": "Late Middle Ages",
+        "needed_fp": "49",
+        "requires": [
+            "Great Swords"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Glass",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Alabaster",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Cooperage"
+        ],
+        "required_by": [
+            "Letterpress",
+            "Optics"
+        ]
+    },
+    {
+        "id": "Intelligence",
+        "name": "Intelligence",
+        "age": "Late Middle Ages",
+        "needed_fp": "38",
+        "requires": [
+            "New Trade Routes",
+            "Water Reservoirs"
+        ],
+        "unlock_costs": {
+            "coins": "17,500",
+            "supplies": "22,500",
+            "goods": []
+        },
+        "provides": [
+            "Tower Ruin"
+        ],
+        "required_by": [
+            "Higher Education",
+            "Pike Square"
+        ]
+    },
+    {
+        "id": "Cavalry_Tactics",
+        "name": "Cavalry Tactics",
+        "age": "Late Middle Ages",
+        "needed_fp": "80",
+        "requires": [
+            "Longbows"
+        ],
+        "unlock_costs": {
+            "coins": "12,500",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [
+            "Heavy Knight Stable"
+        ],
+        "required_by": [
+            "Pike Square"
+        ]
+    },
+    {
+        "id": "Letterpress",
+        "name": "Letterpress",
+        "age": "Late Middle Ages",
+        "needed_fp": "43",
+        "requires": [
+            "Longbows",
+            "Manufacturing"
+        ],
+        "unlock_costs": {
+            "coins": "7,500",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [
+            "Library"
+        ],
+        "required_by": [
+            "Brewing Kettles"
+        ]
+    },
+    {
+        "id": "Optics",
+        "name": "Optics",
+        "age": "Late Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Manufacturing"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "30,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Higher_Education",
+        "name": "Higher Education",
+        "age": "Late Middle Ages",
+        "needed_fp": "45",
+        "requires": [
+            "Intelligence"
+        ],
+        "unlock_costs": {
+            "coins": "10,000",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Gunpowder",
+                    "quantity": "50"
+                },
+                {
+                    "good": "Ebony",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Academy",
+            "Settlement Mughal Empire"
+        ],
+        "required_by": [
+            "Apartment Houses",
+            "Pest Control"
+        ]
+    },
+    {
+        "id": "Pike_Square",
+        "name": "Pike Square",
+        "age": "Late Middle Ages",
+        "needed_fp": "80",
+        "requires": [
+            "Intelligence",
+            "Cavalry Tactics"
+        ],
+        "unlock_costs": {
+            "coins": "7,500",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Silk",
+                    "quantity": "40"
+                },
+                {
+                    "good": "Limestone",
+                    "quantity": "150"
+                }
+            ]
+        },
+        "provides": [
+            "Imperial Guard Barracks"
+        ],
+        "required_by": [
+            "Apartment Houses",
+            "Pest Control",
+            "Gunpowder"
+        ]
+    },
+    {
+        "id": "Brewing_Kettles",
+        "name": "Brewing Kettles",
+        "age": "Late Middle Ages",
+        "needed_fp": "55",
+        "requires": [
+            "Letterpress"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Brass",
+                    "quantity": "50"
+                },
+                {
+                    "good": "Iron",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Brewery"
+        ],
+        "required_by": [
+            "Gunpowder"
+        ]
+    },
+    {
+        "id": "Apartment_Houses",
+        "name": "Apartment Houses",
+        "age": "Late Middle Ages",
+        "needed_fp": "70",
+        "requires": [
+            "Higher Education",
+            "Pike Square"
+        ],
+        "unlock_costs": {
+            "coins": "25,000",
+            "supplies": "30,000",
+            "goods": [
+                {
+                    "good": "Talc Powder",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Jewelry",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Apartment House"
+        ],
+        "required_by": [
+            "Porcelain",
+            "Muskets"
+        ]
+    },
+    {
+        "id": "Pest_Control",
+        "name": "Pest Control",
+        "age": "Late Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Higher Education",
+            "Pike Square"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "5,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Gunpowder",
+        "name": "Gunpowder",
+        "age": "Late Middle Ages",
+        "needed_fp": "60",
+        "requires": [
+            "Pike Square",
+            "Brewing Kettles"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "40,000",
+            "goods": [
+                {
+                    "good": "Basalt",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Cloth",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Cannon Camp"
+        ],
+        "required_by": [
+            "Maritime Shipping",
+            "Industrial Goods"
+        ]
+    }
+]

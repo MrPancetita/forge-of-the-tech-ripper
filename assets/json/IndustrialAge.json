@@ -1,0 +1,568 @@
+[
+    {
+        "id": "Industrialization",
+        "name": "Industrialization",
+        "age": "Industrial Age",
+        "needed_fp": "60",
+        "requires": [
+            "Gambrel Roof Houses",
+            "Field Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Brick",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Glass",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Rubber Plant",
+            "Textile Mill"
+        ],
+        "required_by": [
+            "Rifles",
+            "Railroad"
+        ]
+    },
+    {
+        "id": "Extraction",
+        "name": "Extraction",
+        "age": "Industrial Age",
+        "needed_fp": "70",
+        "requires": [
+            "Gambrel Roof Houses",
+            "Field Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "75,000",
+            "supplies": "150,000",
+            "goods": [
+                {
+                    "good": "Salt",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Basalt",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Whaling Station",
+            "Fertilizer Plant",
+            "Coke Oven"
+        ],
+        "required_by": [
+            "Hygiene",
+            "Modern Chemistry"
+        ]
+    },
+    {
+        "id": "Rifles",
+        "name": "Rifles",
+        "age": "Industrial Age",
+        "needed_fp": "48",
+        "requires": [
+            "Industrialization"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Silk",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Textiles",
+                    "quantity": "40"
+                }
+            ]
+        },
+        "provides": [
+            "Rifleman Range"
+        ],
+        "required_by": [
+            "Workers' Houses"
+        ]
+    },
+    {
+        "id": "Railroad",
+        "name": "Railroad",
+        "age": "Industrial Age",
+        "needed_fp": "110",
+        "requires": [
+            "Industrialization"
+        ],
+        "unlock_costs": {
+            "coins": "30,000",
+            "supplies": "60,000",
+            "goods": [
+                {
+                    "good": "Brass",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Workers' Houses"
+        ]
+    },
+    {
+        "id": "Hygiene",
+        "name": "Hygiene",
+        "age": "Industrial Age",
+        "needed_fp": "110",
+        "requires": [
+            "Extraction"
+        ],
+        "unlock_costs": {
+            "coins": "30,000",
+            "supplies": "60,000",
+            "goods": [
+                {
+                    "good": "Dried Herbs",
+                    "quantity": "190"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "The West"
+        ]
+    },
+    {
+        "id": "Modern_Chemistry",
+        "name": "Modern Chemistry",
+        "age": "Industrial Age",
+        "needed_fp": "48",
+        "requires": [
+            "Extraction"
+        ],
+        "unlock_costs": {
+            "coins": "10,000",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Talc Powder",
+                    "quantity": "130"
+                },
+                {
+                    "good": "Glass",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Chemical Plant",
+            "Gas Lamp"
+        ],
+        "required_by": [
+            "The West"
+        ]
+    },
+    {
+        "id": "Workers'_Houses",
+        "name": "Workers' Houses",
+        "age": "Industrial Age",
+        "needed_fp": "58",
+        "requires": [
+            "Rifles",
+            "Railroad"
+        ],
+        "unlock_costs": {
+            "coins": "30,000",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Fertilizer",
+                    "quantity": "45"
+                },
+                {
+                    "good": "Rope",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Workers' House",
+            "Old Wall South"
+        ],
+        "required_by": [
+            "Reconnaissance",
+            "Precision Tools"
+        ]
+    },
+    {
+        "id": "The_West",
+        "name": "The West",
+        "age": "Industrial Age",
+        "needed_fp": "42",
+        "requires": [
+            "Hygiene",
+            "Modern Chemistry"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "30,000",
+            "goods": [
+                {
+                    "good": "Coffee",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Rope",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Saloon"
+        ],
+        "required_by": [
+            "Precision Tools",
+            "Boarding Houses"
+        ]
+    },
+    {
+        "id": "Reconnaissance",
+        "name": "Reconnaissance",
+        "age": "Industrial Age",
+        "needed_fp": "42",
+        "requires": [
+            "Workers' Houses"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "60,000",
+            "goods": [
+                {
+                    "good": "Coffee",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Silk",
+                    "quantity": "30"
+                }
+            ]
+        },
+        "provides": [
+            "Jaeger Encampment"
+        ],
+        "required_by": [
+            "Victorian Houses"
+        ]
+    },
+    {
+        "id": "Precision_Tools",
+        "name": "Precision Tools",
+        "age": "Industrial Age",
+        "needed_fp": "30",
+        "requires": [
+            "Workers' Houses",
+            "The West"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "90,000",
+            "goods": [
+                {
+                    "good": "Wire",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "Gunsmith"
+        ],
+        "required_by": [
+            "Victorian Houses",
+            "Modern Manufacturing",
+            "Modern Roads",
+            "Flanking Tactics",
+            "Law and Order"
+        ]
+    },
+    {
+        "id": "Boarding_Houses",
+        "name": "Boarding Houses",
+        "age": "Industrial Age",
+        "needed_fp": "68",
+        "requires": [
+            "The West"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Tar",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Porcelain",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Boarding House",
+            "Old Wall East"
+        ],
+        "required_by": [
+            "Flanking Tactics",
+            "Law and Order"
+        ]
+    },
+    {
+        "id": "Victorian_Houses",
+        "name": "Victorian Houses",
+        "age": "Industrial Age",
+        "needed_fp": "68",
+        "requires": [
+            "Reconnaissance",
+            "Precision Tools"
+        ],
+        "unlock_costs": {
+            "coins": "70,000",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Whale Oil",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Porcelain",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Victorian House",
+            "Pavilion with Flowers"
+        ],
+        "required_by": [
+            "Ballistics"
+        ]
+    },
+    {
+        "id": "Modern_Manufacturing",
+        "name": "Modern Manufacturing",
+        "age": "Industrial Age",
+        "needed_fp": "80",
+        "requires": [
+            "Precision Tools"
+        ],
+        "unlock_costs": {
+            "coins": "8,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Salt",
+                    "quantity": "110"
+                },
+                {
+                    "good": "Glass",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Ceramics Factory"
+        ],
+        "required_by": [
+            "Ballistics",
+            "Infrastructure"
+        ]
+    },
+    {
+        "id": "Modern_Roads",
+        "name": "Modern Roads",
+        "age": "Industrial Age",
+        "needed_fp": "33",
+        "requires": [
+            "Precision Tools"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "180,000",
+            "goods": [
+                {
+                    "good": "Tar",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Fertilizer",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Sett Paved Road"
+        ],
+        "required_by": [
+            "Infrastructure"
+        ]
+    },
+    {
+        "id": "Flanking_Tactics",
+        "name": "Flanking Tactics",
+        "age": "Industrial Age",
+        "needed_fp": "73",
+        "requires": [
+            "Precision Tools",
+            "Boarding Houses"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "70,000",
+            "goods": [
+                {
+                    "good": "Whale Oil",
+                    "quantity": "50"
+                },
+                {
+                    "good": "Textiles",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Lancer Stables"
+        ],
+        "required_by": [
+            "Infrastructure",
+            "Breech Loading"
+        ]
+    },
+    {
+        "id": "Law_and_Order",
+        "name": "Law and Order",
+        "age": "Industrial Age",
+        "needed_fp": "41",
+        "requires": [
+            "Precision Tools",
+            "Boarding Houses"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "5,000",
+            "goods": [
+                {
+                    "good": "Paper",
+                    "quantity": "120"
+                },
+                {
+                    "good": "Silk",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Police Station"
+        ],
+        "required_by": [
+            "Breech Loading"
+        ]
+    },
+    {
+        "id": "Ballistics",
+        "name": "Ballistics",
+        "age": "Industrial Age",
+        "needed_fp": "55",
+        "requires": [
+            "Victorian Houses",
+            "Modern Manufacturing"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Rubber",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Gunpowder",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Howitzer Factory"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Infrastructure",
+        "name": "Infrastructure",
+        "age": "Industrial Age",
+        "needed_fp": "37",
+        "requires": [
+            "Modern Roads",
+            "Modern Manufacturing",
+            "Flanking Tactics"
+        ],
+        "unlock_costs": {
+            "coins": "20,000",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Brick",
+                    "quantity": "130"
+                },
+                {
+                    "good": "Basalt",
+                    "quantity": "110"
+                }
+            ]
+        },
+        "provides": [
+            "Water Pumping Station",
+            "Fire Hydrant"
+        ],
+        "required_by": [
+            "Traffic Lanes"
+        ]
+    },
+    {
+        "id": "Breech_Loading",
+        "name": "Breech Loading",
+        "age": "Industrial Age",
+        "needed_fp": "67",
+        "requires": [
+            "Flanking Tactics",
+            "Law and Order"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "90,000",
+            "goods": [
+                {
+                    "good": "Gunpowder",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Brass",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Breech Loader Factory"
+        ],
+        "required_by": []
+    }
+]

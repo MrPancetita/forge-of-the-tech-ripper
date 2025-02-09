@@ -1,0 +1,614 @@
+[
+    {
+        "id": "Private_Transport",
+        "name": "Private Transport",
+        "age": "Postmodern Era",
+        "needed_fp": "53",
+        "requires": [
+            "Anti-Tank Warfare"
+        ],
+        "unlock_costs": {
+            "coins": "80,000",
+            "supplies": "350,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "230"
+                }
+            ]
+        },
+        "provides": [
+            "Car Factory",
+            "Boulevard"
+        ],
+        "required_by": [
+            "Renewable Resources"
+        ]
+    },
+    {
+        "id": "Industrial_Steel",
+        "name": "Industrial Steel",
+        "age": "Postmodern Era",
+        "needed_fp": "110",
+        "requires": [
+            "Anti-Tank Warfare"
+        ],
+        "unlock_costs": {
+            "coins": "150,000",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Tinplate",
+                    "quantity": "170"
+                }
+            ]
+        },
+        "provides": [
+            "Steel Plant"
+        ],
+        "required_by": [
+            "Prefab High-Rises"
+        ]
+    },
+    {
+        "id": "Equality",
+        "name": "Equality",
+        "age": "Postmodern Era",
+        "needed_fp": "45",
+        "requires": [
+            "Anti-Tank Warfare"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Textiles",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Convenience Food",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Peace Sculpture"
+        ],
+        "required_by": [
+            "Environmental Standards"
+        ]
+    },
+    {
+        "id": "Species_Conservation",
+        "name": "Species Conservation",
+        "age": "Postmodern Era",
+        "needed_fp": "47",
+        "requires": [
+            "Anti-Tank Warfare"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Whale Oil",
+                    "quantity": "240"
+                },
+                {
+                    "good": "Convenience Food",
+                    "quantity": "220"
+                }
+            ]
+        },
+        "provides": [
+            "Zoo",
+            "Walkway"
+        ],
+        "required_by": [
+            "Genetics Research"
+        ]
+    },
+    {
+        "id": "Modern_Electronics",
+        "name": "Modern Electronics",
+        "age": "Postmodern Era",
+        "needed_fp": "120",
+        "requires": [
+            "Anti-Tank Warfare"
+        ],
+        "unlock_costs": {
+            "coins": "200,000",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Packaging",
+                    "quantity": "120"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Semiconductor Factory"
+        ],
+        "required_by": [
+            "Rocket Artillery"
+        ]
+    },
+    {
+        "id": "Renewable_Resources",
+        "name": "Renewable Resources",
+        "age": "Postmodern Era",
+        "needed_fp": "77",
+        "requires": [
+            "Private Transport"
+        ],
+        "unlock_costs": {
+            "coins": "350,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Fertilizer",
+                    "quantity": "370"
+                },
+                {
+                    "good": "Packaging",
+                    "quantity": "180"
+                }
+            ]
+        },
+        "provides": [
+            "Tree Nursery"
+        ],
+        "required_by": [
+            "High Society"
+        ]
+    },
+    {
+        "id": "Prefab_High-Rises",
+        "name": "Prefab High-Rises",
+        "age": "Postmodern Era",
+        "needed_fp": "99",
+        "requires": [
+            "Industrial Steel"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "450,000",
+            "goods": [
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Steel",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Prefabricated High-Rise"
+        ],
+        "required_by": [
+            "High Society"
+        ]
+    },
+    {
+        "id": "Environmental_Standards",
+        "name": "Environmental Standards",
+        "age": "Postmodern Era",
+        "needed_fp": "76",
+        "requires": [
+            "Equality"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Industrial Filter Factory",
+            "Allotment Garden Cabin"
+        ],
+        "required_by": [
+            "High Society",
+            "Waste Management",
+            "Space Flight"
+        ]
+    },
+    {
+        "id": "Genetics_Research",
+        "name": "Genetics Research",
+        "age": "Postmodern Era",
+        "needed_fp": "82",
+        "requires": [
+            "Species Conservation"
+        ],
+        "unlock_costs": {
+            "coins": "250,000",
+            "supplies": "20,000",
+            "goods": [
+                {
+                    "good": "Fertilizer",
+                    "quantity": "100"
+                },
+                {
+                    "good": "Flavorants",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Genetics Research Lab"
+        ],
+        "required_by": [
+            "Space Flight"
+        ]
+    },
+    {
+        "id": "Rocket_Artillery",
+        "name": "Rocket Artillery",
+        "age": "Postmodern Era",
+        "needed_fp": "88",
+        "requires": [
+            "Modern Electronics"
+        ],
+        "unlock_costs": {
+            "coins": "400,000",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "230"
+                },
+                {
+                    "good": "Semiconductors",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Rocket Artillery Factory"
+        ],
+        "required_by": [
+            "Space Flight",
+            "Infantry Support"
+        ]
+    },
+    {
+        "id": "High_Society",
+        "name": "High Society",
+        "age": "Postmodern Era",
+        "needed_fp": "5",
+        "requires": [
+            "Renewable Resources",
+            "Prefab High-Rises",
+            "Environmental Standards"
+        ],
+        "unlock_costs": {
+            "coins": "1,000,000",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Luxury Materials",
+                    "quantity": "200"
+                },
+                {
+                    "good": "Flavorants",
+                    "quantity": "190"
+                }
+            ]
+        },
+        "provides": [
+            "Golf Course"
+        ],
+        "required_by": [
+            "Bungalows"
+        ]
+    },
+    {
+        "id": "Waste_Management",
+        "name": "Waste Management",
+        "age": "Postmodern Era",
+        "needed_fp": "39",
+        "requires": [
+            "Environmental Standards"
+        ],
+        "unlock_costs": {
+            "coins": "250,000",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Renewable Resources",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Industrial Filters",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "Junkyard"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Space_Flight",
+        "name": "Space Flight",
+        "age": "Postmodern Era",
+        "needed_fp": "123",
+        "requires": [
+            "Environmental Standards",
+            "Genetics Research",
+            "Rocket Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "1,000,000",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "140"
+                },
+                {
+                    "good": "Semiconductors",
+                    "quantity": "180"
+                }
+            ]
+        },
+        "provides": [
+            "Astronaut Statue"
+        ],
+        "required_by": [
+            "Composite Armor"
+        ]
+    },
+    {
+        "id": "Infantry_Support",
+        "name": "Infantry Support",
+        "age": "Postmodern Era",
+        "needed_fp": "50",
+        "requires": [
+            "Rocket Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "150,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Tinplate",
+                    "quantity": "120"
+                },
+                {
+                    "good": "Machine Parts",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "IFV Factory"
+        ],
+        "required_by": [
+            "Duplex Houses"
+        ]
+    },
+    {
+        "id": "Bungalows",
+        "name": "Bungalows",
+        "age": "Postmodern Era",
+        "needed_fp": "101",
+        "requires": [
+            "High Society"
+        ],
+        "unlock_costs": {
+            "coins": "200,000",
+            "supplies": "100,000",
+            "goods": [
+                {
+                    "good": "Luxury Materials",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Industrial Filters",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Bungalow",
+            "Allotment Garden House"
+        ],
+        "required_by": [
+            "Children's Rights"
+        ]
+    },
+    {
+        "id": "Composite_Armor",
+        "name": "Composite Armor",
+        "age": "Postmodern Era",
+        "needed_fp": "66",
+        "requires": [
+            "Space Flight"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "500,000",
+            "goods": [
+                {
+                    "good": "Steel",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "180"
+                }
+            ]
+        },
+        "provides": [
+            "Universal Tank Factory"
+        ],
+        "required_by": [
+            "Physical Education"
+        ]
+    },
+    {
+        "id": "Duplex_Houses",
+        "name": "Duplex Houses",
+        "age": "Postmodern Era",
+        "needed_fp": "92",
+        "requires": [
+            "Infantry Support"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Renewable Resources",
+                    "quantity": "150"
+                }
+            ]
+        },
+        "provides": [
+            "Duplex House"
+        ],
+        "required_by": [
+            "Physical Education"
+        ]
+    },
+    {
+        "id": "Children's_Rights",
+        "name": "Children's Rights",
+        "age": "Postmodern Era",
+        "needed_fp": "76",
+        "requires": [
+            "Bungalows"
+        ],
+        "unlock_costs": {
+            "coins": "250,000",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Genome Data",
+                    "quantity": "200"
+                },
+                {
+                    "good": "Convenience Food",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Toy Factory",
+            "Allotment Garden Shed"
+        ],
+        "required_by": [
+            "Squad Tactics"
+        ]
+    },
+    {
+        "id": "Physical_Education",
+        "name": "Physical Education",
+        "age": "Postmodern Era",
+        "needed_fp": "93",
+        "requires": [
+            "Composite Armor",
+            "Duplex Houses"
+        ],
+        "unlock_costs": {
+            "coins": "300,000",
+            "supplies": "150,000",
+            "goods": [
+                {
+                    "good": "Textiles",
+                    "quantity": "210"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "120"
+                }
+            ]
+        },
+        "provides": [
+            "Public Pool"
+        ],
+        "required_by": [
+            "Special Operations"
+        ]
+    },
+    {
+        "id": "Squad_Tactics",
+        "name": "Squad Tactics",
+        "age": "Postmodern Era",
+        "needed_fp": "121",
+        "requires": [
+            "Children's Rights"
+        ],
+        "unlock_costs": {
+            "coins": "450,000",
+            "supplies": "600,000",
+            "goods": [
+                {
+                    "good": "Semiconductors",
+                    "quantity": "80"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [
+            "Machinegun Range"
+        ],
+        "required_by": [
+            "Internet"
+        ]
+    },
+    {
+        "id": "Special_Operations",
+        "name": "Special Operations",
+        "age": "Postmodern Era",
+        "needed_fp": "117",
+        "requires": [
+            "Physical Education"
+        ],
+        "unlock_costs": {
+            "coins": "600,000",
+            "supplies": "450,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Asbestos",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Commando Camp"
+        ],
+        "required_by": [
+            "Internet"
+        ]
+    }
+]

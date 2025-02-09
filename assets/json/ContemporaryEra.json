@@ -1,0 +1,545 @@
+[
+    {
+        "id": "Internet",
+        "name": "Internet",
+        "age": "Contemporary Era",
+        "needed_fp": "58",
+        "requires": [
+            "Squad Tactics",
+            "Special Operations"
+        ],
+        "unlock_costs": {
+            "coins": "500,000",
+            "supplies": "1,000,000",
+            "goods": [
+                {
+                    "good": "Semiconductors",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Convenience Food",
+                    "quantity": "150"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Waterfront Residentials",
+            "Shophouses",
+            "Automation",
+            "Bionics",
+            "Petroleum Industry"
+        ]
+    },
+    {
+        "id": "Waterfront_Residentials",
+        "name": "Waterfront Residentials",
+        "age": "Contemporary Era",
+        "needed_fp": "95",
+        "requires": [
+            "Internet"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "800,000",
+            "goods": [
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Industrial Filters",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Waterfront Residential",
+            "Canal Bridge"
+        ],
+        "required_by": [
+            "Local Purchasing"
+        ]
+    },
+    {
+        "id": "Shophouses",
+        "name": "Shophouses",
+        "age": "Contemporary Era",
+        "needed_fp": "75",
+        "requires": [
+            "Internet"
+        ],
+        "unlock_costs": {
+            "coins": "400,000",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Convenience Food",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Steel",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Shophouse"
+        ],
+        "required_by": [
+            "Consumerism"
+        ]
+    },
+    {
+        "id": "Automation",
+        "name": "Automation",
+        "age": "Contemporary Era",
+        "needed_fp": "104",
+        "requires": [
+            "Internet"
+        ],
+        "unlock_costs": {
+            "coins": "400,000",
+            "supplies": "850,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "290"
+                },
+                {
+                    "good": "Semiconductors",
+                    "quantity": "120"
+                }
+            ]
+        },
+        "provides": [
+            "Robotics Factory",
+            "Magnet Factory"
+        ],
+        "required_by": [
+            "Reactive Armor"
+        ]
+    },
+    {
+        "id": "Bionics",
+        "name": "Bionics",
+        "age": "Contemporary Era",
+        "needed_fp": "60",
+        "requires": [
+            "Internet"
+        ],
+        "unlock_costs": {
+            "coins": "350,000",
+            "supplies": "1,200,000",
+            "goods": [
+                {
+                    "good": "Genome Data",
+                    "quantity": "400"
+                },
+                {
+                    "good": "Plastics",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Bionics Research Lab"
+        ],
+        "required_by": [
+            "Reactive Armor",
+            "Aerial Fire Support"
+        ]
+    },
+    {
+        "id": "Petroleum_Industry",
+        "name": "Petroleum Industry",
+        "age": "Contemporary Era",
+        "needed_fp": "101",
+        "requires": [
+            "Internet"
+        ],
+        "unlock_costs": {
+            "coins": "600,000",
+            "supplies": "900,000",
+            "goods": [
+                {
+                    "good": "Gasoline",
+                    "quantity": "330"
+                },
+                {
+                    "good": "Tinplate",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "LNG Plant",
+            "Plastics Plant"
+        ],
+        "required_by": [
+            "Missile Artillery"
+        ]
+    },
+    {
+        "id": "Local_Purchasing",
+        "name": "Local Purchasing",
+        "age": "Contemporary Era",
+        "needed_fp": "99",
+        "requires": [
+            "Waterfront Residentials"
+        ],
+        "unlock_costs": {
+            "coins": "200,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Renewable Resources",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Packaging",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Fish Market",
+            "Floating Market"
+        ],
+        "required_by": [
+            "Financial Services"
+        ]
+    },
+    {
+        "id": "Consumerism",
+        "name": "Consumerism",
+        "age": "Contemporary Era",
+        "needed_fp": "61",
+        "requires": [
+            "Shophouses"
+        ],
+        "unlock_costs": {
+            "coins": "1,300,000",
+            "supplies": "500,000",
+            "goods": [
+                {
+                    "good": "Plastics",
+                    "quantity": "260"
+                },
+                {
+                    "good": "Luxury Materials",
+                    "quantity": "400"
+                }
+            ]
+        },
+        "provides": [
+            "Shopping Mall"
+        ],
+        "required_by": [
+            "Financial Services",
+            "Globalization"
+        ]
+    },
+    {
+        "id": "Reactive_Armor",
+        "name": "Reactive Armor",
+        "age": "Contemporary Era",
+        "needed_fp": "110",
+        "requires": [
+            "Automation",
+            "Bionics"
+        ],
+        "unlock_costs": {
+            "coins": "150,000",
+            "supplies": "700,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "380"
+                },
+                {
+                    "good": "Steel",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Assault Tank Factory"
+        ],
+        "required_by": [
+            "Globalization"
+        ]
+    },
+    {
+        "id": "Aerial_Fire_Support",
+        "name": "Aerial Fire Support",
+        "age": "Contemporary Era",
+        "needed_fp": "82",
+        "requires": [
+            "Bionics"
+        ],
+        "unlock_costs": {
+            "coins": "300,000",
+            "supplies": "500,000",
+            "goods": [
+                {
+                    "good": "Electromagnets",
+                    "quantity": "120"
+                },
+                {
+                    "good": "Machine Parts",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Attack Helicopter Base"
+        ],
+        "required_by": [
+            "Globalization",
+            "Mobile Air Defense"
+        ]
+    },
+    {
+        "id": "Missile_Artillery",
+        "name": "Missile Artillery",
+        "age": "Contemporary Era",
+        "needed_fp": "105",
+        "requires": [
+            "Petroleum Industry"
+        ],
+        "unlock_costs": {
+            "coins": "450,000",
+            "supplies": "1,000,000",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "480"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "160"
+                }
+            ]
+        },
+        "provides": [
+            "Missile Site"
+        ],
+        "required_by": [
+            "Mobile Air Defense"
+        ]
+    },
+    {
+        "id": "Financial_Services",
+        "name": "Financial Services",
+        "age": "Contemporary Era",
+        "needed_fp": "44",
+        "requires": [
+            "Local Purchasing",
+            "Consumerism"
+        ],
+        "unlock_costs": {
+            "coins": "2,500,000",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Semiconductors",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Gas",
+                    "quantity": "260"
+                }
+            ]
+        },
+        "provides": [
+            "Business Center",
+            "Cherry Tree"
+        ],
+        "required_by": [
+            "Condominiums",
+            "Stress Management"
+        ]
+    },
+    {
+        "id": "Globalization",
+        "name": "Globalization",
+        "age": "Contemporary Era",
+        "needed_fp": "97",
+        "requires": [
+            "Consumerism",
+            "Reactive Armor",
+            "Aerial Fire Support"
+        ],
+        "unlock_costs": {
+            "coins": "800,000",
+            "supplies": "1,500,000",
+            "goods": [
+                {
+                    "good": "Packaging",
+                    "quantity": "400"
+                },
+                {
+                    "good": "Robots",
+                    "quantity": "180"
+                }
+            ]
+        },
+        "provides": [
+            "Logistics Center",
+            "Neon Billboard"
+        ],
+        "required_by": [
+            "Stress Management",
+            "Military Interventions"
+        ]
+    },
+    {
+        "id": "Mobile_Air_Defense",
+        "name": "Mobile Air Defense",
+        "age": "Contemporary Era",
+        "needed_fp": "108",
+        "requires": [
+            "Aerial Fire Support",
+            "Missile Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "650,000",
+            "supplies": "450,000",
+            "goods": [
+                {
+                    "good": "Electromagnets",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Tinplate",
+                    "quantity": "260"
+                }
+            ]
+        },
+        "provides": [
+            "Air Defense Factory"
+        ],
+        "required_by": [
+            "Military Interventions"
+        ]
+    },
+    {
+        "id": "Condominiums",
+        "name": "Condominiums",
+        "age": "Contemporary Era",
+        "needed_fp": "90",
+        "requires": [
+            "Financial Services"
+        ],
+        "unlock_costs": {
+            "coins": "200,000",
+            "supplies": "600,000",
+            "goods": [
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "300"
+                },
+                {
+                    "good": "Industrial Filters",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Condominium"
+        ],
+        "required_by": [
+            "Renewable Energy"
+        ]
+    },
+    {
+        "id": "Stress_Management",
+        "name": "Stress Management",
+        "age": "Contemporary Era",
+        "needed_fp": "42",
+        "requires": [
+            "Financial Services",
+            "Globalization"
+        ],
+        "unlock_costs": {
+            "coins": "25,914",
+            "supplies": "251,147",
+            "goods": [
+                {
+                    "good": "Flavorants",
+                    "quantity": "400"
+                },
+                {
+                    "good": "Bionics Data",
+                    "quantity": "175"
+                }
+            ]
+        },
+        "provides": [
+            "Zen Garden"
+        ],
+        "required_by": [
+            "Renewable Energy"
+        ]
+    },
+    {
+        "id": "Military_Interventions",
+        "name": "Military Interventions",
+        "age": "Contemporary Era",
+        "needed_fp": "92",
+        "requires": [
+            "Globalization",
+            "Mobile Air Defense"
+        ],
+        "unlock_costs": {
+            "coins": "1,000,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Gas",
+                    "quantity": "250"
+                },
+                {
+                    "good": "Robots",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Strike Team Center"
+        ],
+        "required_by": [
+            "Renewable Energy"
+        ]
+    },
+    {
+        "id": "Renewable_Energy",
+        "name": "Renewable Energy",
+        "age": "Contemporary Era",
+        "needed_fp": "107",
+        "requires": [
+            "Condominiums",
+            "Stress Management",
+            "Military Interventions"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "1,250,000",
+            "goods": [
+                {
+                    "good": "Bionics Data",
+                    "quantity": "225"
+                },
+                {
+                    "good": "Renewable Resources",
+                    "quantity": "250"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Fusion Power"
+        ]
+    }
+]

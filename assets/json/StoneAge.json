@@ -1,0 +1,22 @@
+[
+    {
+        "id": "Tribal_Community",
+        "name": "Tribal Community",
+        "age": "Stone Age",
+        "needed_fp": "3",
+        "requires": [],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "None"
+        ],
+        "required_by": [
+            "Stilt Houses",
+            "Spears",
+            "Pottery"
+        ]
+    }
+]

@@ -1,0 +1,495 @@
+[
+    {
+        "id": "Counterstrategy",
+        "name": "Counterstrategy",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Physics"
+        ],
+        "unlock_costs": {
+            "coins": "3,500",
+            "supplies": "3,000",
+            "goods": [
+                {
+                    "good": "Alabaster",
+                    "quantity": "20"
+                },
+                {
+                    "good": "Ebony",
+                    "quantity": "42"
+                }
+            ]
+        },
+        "provides": [
+            "Berserker Barracks"
+        ],
+        "required_by": [
+            "Crossbows"
+        ]
+    },
+    {
+        "id": "Quality_Products",
+        "name": "Quality Products",
+        "age": "High Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Physics"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "9,000",
+            "goods": [
+                {
+                    "good": "Copper",
+                    "quantity": "20"
+                },
+                {
+                    "good": "Jewelry",
+                    "quantity": "10"
+                }
+            ]
+        },
+        "provides": [
+            "Brickworks",
+            "Herb Merchant"
+        ],
+        "required_by": [
+            "Guilds",
+            "Conservation"
+        ]
+    },
+    {
+        "id": "Alchemy",
+        "name": "Alchemy",
+        "age": "High Middle Ages",
+        "needed_fp": "37",
+        "requires": [
+            "Physics"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "6,000",
+            "goods": [
+                {
+                    "good": "Honey",
+                    "quantity": "30"
+                },
+                {
+                    "good": "Cloth",
+                    "quantity": "30"
+                }
+            ]
+        },
+        "provides": [
+            "Alchemist"
+        ],
+        "required_by": [
+            "Conservation",
+            "Brownstone Houses"
+        ]
+    },
+    {
+        "id": "Crossbows",
+        "name": "Crossbows",
+        "age": "High Middle Ages",
+        "needed_fp": "45",
+        "requires": [
+            "Counterstrategy"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "9,000",
+            "goods": []
+        },
+        "provides": [
+            "Crossbow Range"
+        ],
+        "required_by": [
+            "Monotheism"
+        ]
+    },
+    {
+        "id": "Guilds",
+        "name": "Guilds",
+        "age": "High Middle Ages",
+        "needed_fp": "33",
+        "requires": [
+            "Quality Products"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "12,000",
+            "goods": []
+        },
+        "provides": [
+            "Ropery",
+            "Glassblower"
+        ],
+        "required_by": [
+            "Trade Routes"
+        ]
+    },
+    {
+        "id": "Conservation",
+        "name": "Conservation",
+        "age": "High Middle Ages",
+        "needed_fp": "20",
+        "requires": [
+            "Quality Products",
+            "Alchemy"
+        ],
+        "unlock_costs": {
+            "coins": "9,500",
+            "supplies": "7,500",
+            "goods": []
+        },
+        "provides": [
+            "Saltworks"
+        ],
+        "required_by": [
+            "Chemistry"
+        ]
+    },
+    {
+        "id": "Brownstone_Houses",
+        "name": "Brownstone Houses",
+        "age": "High Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Alchemy"
+        ],
+        "unlock_costs": {
+            "coins": "4,250",
+            "supplies": "9,000",
+            "goods": [
+                {
+                    "good": "Granite",
+                    "quantity": "60"
+                },
+                {
+                    "good": "Limestone",
+                    "quantity": "28"
+                }
+            ]
+        },
+        "provides": [
+            "Brownstone House"
+        ],
+        "required_by": [
+            "Signposting"
+        ]
+    },
+    {
+        "id": "Monotheism",
+        "name": "Monotheism",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Crossbows"
+        ],
+        "unlock_costs": {
+            "coins": "1,250",
+            "supplies": "6,000",
+            "goods": [
+                {
+                    "good": "Gold",
+                    "quantity": "41"
+                },
+                {
+                    "good": "Iron",
+                    "quantity": "47"
+                }
+            ]
+        },
+        "provides": [
+            "Church",
+            "Flag"
+        ],
+        "required_by": [
+            "Chivalry"
+        ]
+    },
+    {
+        "id": "Trade_Routes",
+        "name": "Trade Routes",
+        "age": "High Middle Ages",
+        "needed_fp": "26",
+        "requires": [
+            "Guilds"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "9,500",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Clearing"
+        ]
+    },
+    {
+        "id": "Chemistry",
+        "name": "Chemistry",
+        "age": "High Middle Ages",
+        "needed_fp": "43",
+        "requires": [
+            "Conservation"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "10,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Clearing"
+        ]
+    },
+    {
+        "id": "Signposting",
+        "name": "Signposting",
+        "age": "High Middle Ages",
+        "needed_fp": "35",
+        "requires": [
+            "Brownstone Houses"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "12,000",
+            "goods": []
+        },
+        "provides": [
+            "Rough Paved Road",
+            "Signpost",
+            "Polynesia Settlement"
+        ],
+        "required_by": [
+            "Granary"
+        ]
+    },
+    {
+        "id": "Chivalry",
+        "name": "Chivalry",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Monotheism"
+        ],
+        "unlock_costs": {
+            "coins": "4,500",
+            "supplies": "8,500",
+            "goods": [
+                {
+                    "good": "Stone",
+                    "quantity": "66"
+                },
+                {
+                    "good": "Rope",
+                    "quantity": "4"
+                }
+            ]
+        },
+        "provides": [
+            "Knight Stable"
+        ],
+        "required_by": [
+            "Heavy Armor"
+        ]
+    },
+    {
+        "id": "Clearing",
+        "name": "Clearing",
+        "age": "High Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Trade Routes",
+            "Chemistry"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "20,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Water Wheels"
+        ]
+    },
+    {
+        "id": "Granary",
+        "name": "Granary",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Signposting"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "8,000",
+            "goods": [
+                {
+                    "good": "Lumber",
+                    "quantity": "79"
+                },
+                {
+                    "good": "Salt",
+                    "quantity": "11"
+                }
+            ]
+        },
+        "provides": [
+            "Farm"
+        ],
+        "required_by": [
+            "Medicine",
+            "Town Houses"
+        ]
+    },
+    {
+        "id": "Heavy_Armor",
+        "name": "Heavy Armor",
+        "age": "High Middle Ages",
+        "needed_fp": "60",
+        "requires": [
+            "Chivalry"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "10,500",
+            "goods": [
+                {
+                    "good": "Dye",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Dried Herbs",
+                    "quantity": "34"
+                }
+            ]
+        },
+        "provides": [
+            "Heavy Infantry Barracks"
+        ],
+        "required_by": [
+            "Heavy Siege Engines",
+            "Hospitals"
+        ]
+    },
+    {
+        "id": "Water_Wheels",
+        "name": "Water Wheels",
+        "age": "High Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Clearing"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "12,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Medicine",
+        "name": "Medicine",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Granary"
+        ],
+        "unlock_costs": {
+            "coins": "2,000",
+            "supplies": "13,000",
+            "goods": []
+        },
+        "provides": [
+            "Doctor",
+            "Lantern"
+        ],
+        "required_by": [
+            "Heavy Siege Engines",
+            "Hospitals"
+        ]
+    },
+    {
+        "id": "Town_Houses",
+        "name": "Town Houses",
+        "age": "High Middle Ages",
+        "needed_fp": "40",
+        "requires": [
+            "Granary"
+        ],
+        "unlock_costs": {
+            "coins": "5,000",
+            "supplies": "5,000",
+            "goods": [
+                {
+                    "good": "Wine",
+                    "quantity": "71"
+                },
+                {
+                    "good": "Brick",
+                    "quantity": "40"
+                }
+            ]
+        },
+        "provides": [
+            "Town House"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Heavy_Siege_Engines",
+        "name": "Heavy Siege Engines",
+        "age": "High Middle Ages",
+        "needed_fp": "50",
+        "requires": [
+            "Heavy Armor",
+            "Medicine"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "18,000",
+            "goods": []
+        },
+        "provides": [
+            "Trebuchet Camp"
+        ],
+        "required_by": [
+            "Metal Working",
+            "Crane"
+        ]
+    },
+    {
+        "id": "Hospitals",
+        "name": "Hospitals",
+        "age": "High Middle Ages",
+        "needed_fp": "24",
+        "requires": [
+            "Heavy Armor",
+            "Medicine"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "6,000",
+            "goods": [
+                {
+                    "good": "Marble",
+                    "quantity": "94"
+                },
+                {
+                    "good": "Glass",
+                    "quantity": "50"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Biology",
+            "Aristocracy"
+        ]
+    }
+]

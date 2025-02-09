@@ -1,0 +1,541 @@
+[
+    {
+        "id": "Prefabrication",
+        "name": "Prefabrication",
+        "age": "Modern Era",
+        "needed_fp": "102",
+        "requires": [
+            "Recreation"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "200"
+                }
+            ]
+        },
+        "provides": [
+            "Concrete Plant",
+            "Packaging Factory"
+        ],
+        "required_by": [
+            "Prefab Houses",
+            "Mechanized Infantry"
+        ]
+    },
+    {
+        "id": "Autobahns",
+        "name": "Autobahns",
+        "age": "Modern Era",
+        "needed_fp": "57",
+        "requires": [
+            "Recreation"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "400,000",
+            "goods": [
+                {
+                    "good": "Gasoline",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Tar",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Motorway",
+            "Construction Warehouse"
+        ],
+        "required_by": [
+            "Mechanized Infantry",
+            "Motels",
+            "Mechanized Artillery"
+        ]
+    },
+    {
+        "id": "Food_Processing",
+        "name": "Food Processing",
+        "age": "Modern Era",
+        "needed_fp": "85",
+        "requires": [
+            "Recreation"
+        ],
+        "unlock_costs": {
+            "coins": "75,000",
+            "supplies": "150,000",
+            "goods": [
+                {
+                    "good": "Whale Oil",
+                    "quantity": "430"
+                },
+                {
+                    "good": "Tinplate",
+                    "quantity": "100"
+                }
+            ]
+        },
+        "provides": [
+            "Food Processing Plant",
+            "Flavor Laboratory"
+        ],
+        "required_by": [
+            "Mechanized Artillery",
+            "Advertisement"
+        ]
+    },
+    {
+        "id": "Prefab_Houses",
+        "name": "Prefab Houses",
+        "age": "Modern Era",
+        "needed_fp": "79",
+        "requires": [
+            "Prefabrication"
+        ],
+        "unlock_costs": {
+            "coins": "50,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "190"
+                },
+                {
+                    "good": "Convenience Food",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Prefab House"
+        ],
+        "required_by": [
+            "Commercial Aviation"
+        ]
+    },
+    {
+        "id": "Mechanized_Infantry",
+        "name": "Mechanized Infantry",
+        "age": "Modern Era",
+        "needed_fp": "59",
+        "requires": [
+            "Autobahns",
+            "Prefabrication"
+        ],
+        "unlock_costs": {
+            "coins": "25,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Mechanized Infantry Barracks"
+        ],
+        "required_by": [
+            "24-7 Service"
+        ]
+    },
+    {
+        "id": "Motels",
+        "name": "Motels",
+        "age": "Modern Era",
+        "needed_fp": "62",
+        "requires": [
+            "Autobahns"
+        ],
+        "unlock_costs": {
+            "coins": "50,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Asbestos",
+                    "quantity": "130"
+                },
+                {
+                    "good": "Porcelain",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "Motel"
+        ],
+        "required_by": [
+            "24-7 Service"
+        ]
+    },
+    {
+        "id": "Mechanized_Artillery",
+        "name": "Mechanized Artillery",
+        "age": "Modern Era",
+        "needed_fp": "67",
+        "requires": [
+            "Autobahns",
+            "Food Processing"
+        ],
+        "unlock_costs": {
+            "coins": "25,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Wire",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "Mechanized Artillery Factory",
+            "Nuclear Shelter"
+        ],
+        "required_by": [
+            "24-7 Service"
+        ]
+    },
+    {
+        "id": "Advertisement",
+        "name": "Advertisement",
+        "age": "Modern Era",
+        "needed_fp": "73",
+        "requires": [
+            "Food Processing"
+        ],
+        "unlock_costs": {
+            "coins": "100,000",
+            "supplies": "50,000",
+            "goods": [
+                {
+                    "good": "Flavorants",
+                    "quantity": "190"
+                },
+                {
+                    "good": "Packaging",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Hatter"
+        ],
+        "required_by": [
+            "Hollywood"
+        ]
+    },
+    {
+        "id": "Commercial_Aviation",
+        "name": "Commercial Aviation",
+        "age": "Modern Era",
+        "needed_fp": "110",
+        "requires": [
+            "Prefab Houses"
+        ],
+        "unlock_costs": {
+            "coins": "77,000",
+            "supplies": "110,000",
+            "goods": [
+                {
+                    "good": "Tinplate",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "Aircraft Factory",
+            "Jet Statue"
+        ],
+        "required_by": [
+            "Spectator Sports",
+            "Rapid Deployment"
+        ]
+    },
+    {
+        "id": "24-7_Service",
+        "name": "24-7 Service",
+        "age": "Modern Era",
+        "needed_fp": "77",
+        "requires": [
+            "Mechanized Infantry",
+            "Motels",
+            "Mechanized Artillery"
+        ],
+        "unlock_costs": {
+            "coins": "24,000",
+            "supplies": "70,000",
+            "goods": [
+                {
+                    "good": "Convenience Food",
+                    "quantity": "210"
+                },
+                {
+                    "good": "Coffee",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "American Diner"
+        ],
+        "required_by": [
+            "Rapid Deployment",
+            "Consumer Goods"
+        ]
+    },
+    {
+        "id": "Hollywood",
+        "name": "Hollywood",
+        "age": "Modern Era",
+        "needed_fp": "111",
+        "requires": [
+            "Advertisement"
+        ],
+        "unlock_costs": {
+            "coins": "300,000",
+            "supplies": "100,000",
+            "goods": [
+                {
+                    "good": "Luxury Materials",
+                    "quantity": "180"
+                },
+                {
+                    "good": "Explosives",
+                    "quantity": "60"
+                }
+            ]
+        },
+        "provides": [
+            "Drive-In Theater",
+            "Palm Group"
+        ],
+        "required_by": [
+            "Consumer Goods",
+            "Baby Boom"
+        ]
+    },
+    {
+        "id": "Spectator_Sports",
+        "name": "Spectator Sports",
+        "age": "Modern Era",
+        "needed_fp": "108",
+        "requires": [
+            "Commercial Aviation"
+        ],
+        "unlock_costs": {
+            "coins": "15,000",
+            "supplies": "80,000",
+            "goods": [
+                {
+                    "good": "Textiles",
+                    "quantity": "140"
+                },
+                {
+                    "good": "Asbestos",
+                    "quantity": "120"
+                }
+            ]
+        },
+        "provides": [
+            "Roller Derby Track"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Rapid_Deployment",
+        "name": "Rapid Deployment",
+        "age": "Modern Era",
+        "needed_fp": "58",
+        "requires": [
+            "Commercial Aviation",
+            "24/7 Service"
+        ],
+        "unlock_costs": {
+            "coins": "250,000",
+            "supplies": "100,000",
+            "goods": [
+                {
+                    "good": "Textiles",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Paper",
+                    "quantity": "40"
+                }
+            ]
+        },
+        "provides": [
+            "Paratrooper Camp"
+        ],
+        "required_by": [
+            "Modern Tanks"
+        ]
+    },
+    {
+        "id": "Consumer_Goods",
+        "name": "Consumer Goods",
+        "age": "Modern Era",
+        "needed_fp": "109",
+        "requires": [
+            "24/7 Service",
+            "Hollywood"
+        ],
+        "unlock_costs": {
+            "coins": "60,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Machine Parts",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Rubber",
+                    "quantity": "130"
+                }
+            ]
+        },
+        "provides": [
+            "Appliance Factory"
+        ],
+        "required_by": [
+            "Suburban Houses"
+        ]
+    },
+    {
+        "id": "Baby_Boom",
+        "name": "Baby Boom",
+        "age": "Modern Era",
+        "needed_fp": "56",
+        "requires": [
+            "Hollywood"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "300,000",
+            "goods": [
+                {
+                    "good": "Fertilizer",
+                    "quantity": "160"
+                },
+                {
+                    "good": "Packaging",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Alley"
+        ],
+        "required_by": [
+            "Modern Tanks",
+            "Suburban Houses"
+        ]
+    },
+    {
+        "id": "Modern_Tanks",
+        "name": "Modern Tanks",
+        "age": "Modern Era",
+        "needed_fp": "112",
+        "requires": [
+            "Rapid Deployment",
+            "Baby Boom"
+        ],
+        "unlock_costs": {
+            "coins": "25,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Tinplate",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Gasoline",
+                    "quantity": "140"
+                }
+            ]
+        },
+        "provides": [
+            "Battle Tank Factory"
+        ],
+        "required_by": [
+            "Anti-Tank Warfare"
+        ]
+    },
+    {
+        "id": "Suburban_Houses",
+        "name": "Suburban Houses",
+        "age": "Modern Era",
+        "needed_fp": "70",
+        "requires": [
+            "Consumer Goods",
+            "Baby Boom"
+        ],
+        "unlock_costs": {
+            "coins": "50,000",
+            "supplies": "200,000",
+            "goods": [
+                {
+                    "good": "Luxury Materials",
+                    "quantity": "150"
+                },
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "80"
+                }
+            ]
+        },
+        "provides": [
+            "Suburban House"
+        ],
+        "required_by": [
+            "Anti-Tank Warfare"
+        ]
+    },
+    {
+        "id": "Anti-Tank_Warfare",
+        "name": "Anti-Tank Warfare",
+        "age": "Modern Era",
+        "needed_fp": "45",
+        "requires": [
+            "Modern Tanks",
+            "Suburban Houses"
+        ],
+        "unlock_costs": {
+            "coins": "25,000",
+            "supplies": "250,000",
+            "goods": [
+                {
+                    "good": "Explosives",
+                    "quantity": "90"
+                },
+                {
+                    "good": "Ferroconcrete",
+                    "quantity": "90"
+                }
+            ]
+        },
+        "provides": [
+            "Heavy Weapons Center"
+        ],
+        "required_by": [
+            "Private Transport",
+            "Industrial Steel",
+            "Equality",
+            "Species Conservation",
+            "Modern Electronics"
+        ]
+    }
+]

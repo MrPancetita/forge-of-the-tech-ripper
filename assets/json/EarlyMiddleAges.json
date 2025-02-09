@@ -1,0 +1,519 @@
+[
+    {
+        "id": "Frame_Houses",
+        "name": "Frame Houses",
+        "age": "Early Middle Ages",
+        "needed_fp": "12",
+        "requires": [
+            "Mathematics",
+            "Thermae"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "1,500",
+            "goods": []
+        },
+        "provides": [
+            "Frame House"
+        ],
+        "required_by": [
+            "Casting",
+            "Mounted Archers",
+            "Economics"
+        ]
+    },
+    {
+        "id": "Tanning",
+        "name": "Tanning",
+        "age": "Early Middle Ages",
+        "needed_fp": "18",
+        "requires": [
+            "Mathematics",
+            "Chain of Command"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "3,000",
+            "goods": []
+        },
+        "provides": [
+            "Tannery"
+        ],
+        "required_by": [
+            "Mounted Archers",
+            "Economics",
+            "Apiary",
+            "Quarries"
+        ]
+    },
+    {
+        "id": "Multistory_Houses",
+        "name": "Multistory Houses",
+        "age": "Early Middle Ages",
+        "needed_fp": "23",
+        "requires": [
+            "Chain of Command"
+        ],
+        "unlock_costs": {
+            "coins": "2,500",
+            "supplies": "2,000",
+            "goods": []
+        },
+        "provides": [
+            "Multistory House"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Casting",
+        "name": "Casting",
+        "age": "Early Middle Ages",
+        "needed_fp": "20",
+        "requires": [
+            "Frame Houses"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "3,000",
+            "goods": []
+        },
+        "provides": [
+            "Goldsmith",
+            "Copper Foundry"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Mounted_Archers",
+        "name": "Mounted Archers",
+        "age": "Early Middle Ages",
+        "needed_fp": "25",
+        "requires": [
+            "Frame Houses",
+            "Tanning"
+        ],
+        "unlock_costs": {
+            "coins": "750",
+            "supplies": "1,500",
+            "goods": [
+                {
+                    "good": "Ebony",
+                    "quantity": "28"
+                },
+                {
+                    "good": "Marble",
+                    "quantity": "22"
+                }
+            ]
+        },
+        "provides": [
+            "Mounted Archer Range"
+        ],
+        "required_by": [
+            "Accommodation",
+            "Police",
+            "Mercenaries"
+        ]
+    },
+    {
+        "id": "Economics",
+        "name": "Economics",
+        "age": "Early Middle Ages",
+        "needed_fp": "26",
+        "requires": [
+            "Frame Houses",
+            "Tanning"
+        ],
+        "unlock_costs": {
+            "coins": "750",
+            "supplies": "1,000",
+            "goods": [
+                {
+                    "good": "Jewelry",
+                    "quantity": "20"
+                },
+                {
+                    "good": "Dye",
+                    "quantity": "46"
+                }
+            ]
+        },
+        "provides": [
+            "Marketplace",
+            "Pond",
+            "Antiques Dealer"
+        ],
+        "required_by": [
+            "Mercenaries",
+            "Leather Working"
+        ]
+    },
+    {
+        "id": "Apiary",
+        "name": "Apiary",
+        "age": "Early Middle Ages",
+        "needed_fp": "20",
+        "requires": [
+            "Tanning"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "5,000",
+            "goods": []
+        },
+        "provides": [
+            "Beekeeper"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Quarries",
+        "name": "Quarries",
+        "age": "Early Middle Ages",
+        "needed_fp": "22",
+        "requires": [
+            "Tanning"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "6,000",
+            "goods": []
+        },
+        "provides": [
+            "Granite Mason",
+            "Alabaster Mason"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Accommodation",
+        "name": "Accommodation",
+        "age": "Early Middle Ages",
+        "needed_fp": "25",
+        "requires": [
+            "Mounted Archers"
+        ],
+        "unlock_costs": {
+            "coins": "3,000",
+            "supplies": "1,000",
+            "goods": [
+                {
+                    "good": "Limestone",
+                    "quantity": "40"
+                },
+                {
+                    "good": "Lumber",
+                    "quantity": "34"
+                }
+            ]
+        },
+        "provides": [
+            "Inn",
+            "Hedge with Flowers"
+        ],
+        "required_by": [
+            "Clapboard Houses"
+        ]
+    },
+    {
+        "id": "Police",
+        "name": "Police",
+        "age": "Early Middle Ages",
+        "needed_fp": "26",
+        "requires": [
+            "Mounted Archers"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "4,000",
+            "goods": []
+        },
+        "provides": [
+            "Cobbled Road"
+        ],
+        "required_by": [
+            "Clapboard Houses"
+        ]
+    },
+    {
+        "id": "Mercenaries",
+        "name": "Mercenaries",
+        "age": "Early Middle Ages",
+        "needed_fp": "26",
+        "requires": [
+            "Mounted Archers",
+            "Economics"
+        ],
+        "unlock_costs": {
+            "coins": "1,250",
+            "supplies": "1,500",
+            "goods": [
+                {
+                    "good": "Iron",
+                    "quantity": "42"
+                },
+                {
+                    "good": "Wine",
+                    "quantity": "35"
+                }
+            ]
+        },
+        "provides": [
+            "Mercenary Barracks",
+            "PvP Arena"
+        ],
+        "required_by": [
+            "Heavy Cavalry"
+        ]
+    },
+    {
+        "id": "Leather_Working",
+        "name": "Leather Working",
+        "age": "Early Middle Ages",
+        "needed_fp": "29",
+        "requires": [
+            "Economics"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "1,250",
+            "goods": [
+                {
+                    "good": "Cloth",
+                    "quantity": "49"
+                },
+                {
+                    "good": "Stone",
+                    "quantity": "61"
+                }
+            ]
+        },
+        "provides": [
+            "Shoemaker"
+        ],
+        "required_by": [
+            "Armored Infantry"
+        ]
+    },
+    {
+        "id": "Clapboard_Houses",
+        "name": "Clapboard Houses",
+        "age": "Early Middle Ages",
+        "needed_fp": "24",
+        "requires": [
+            "Accommodation",
+            "Police"
+        ],
+        "unlock_costs": {
+            "coins": "500",
+            "supplies": "2,000",
+            "goods": [
+                {
+                    "good": "Ebony",
+                    "quantity": "35"
+                },
+                {
+                    "good": "Granite",
+                    "quantity": "4"
+                }
+            ]
+        },
+        "provides": [
+            "Clapboard House"
+        ],
+        "required_by": [
+            "Bridges"
+        ]
+    },
+    {
+        "id": "Heavy_Cavalry",
+        "name": "Heavy Cavalry",
+        "age": "Early Middle Ages",
+        "needed_fp": "33",
+        "requires": [
+            "Mercenaries"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "7,500",
+            "goods": []
+        },
+        "provides": [
+            "Heavy Cavalry Stable"
+        ],
+        "required_by": [
+            "Bridges",
+            "Executions"
+        ]
+    },
+    {
+        "id": "Armored_Infantry",
+        "name": "Armored Infantry",
+        "age": "Early Middle Ages",
+        "needed_fp": "30",
+        "requires": [
+            "Leather Working"
+        ],
+        "unlock_costs": {
+            "coins": "4,000",
+            "supplies": "3,000",
+            "goods": []
+        },
+        "provides": [
+            "Armored Infantry Barracks"
+        ],
+        "required_by": [
+            "Executions"
+        ]
+    },
+    {
+        "id": "Bridges",
+        "name": "Bridges",
+        "age": "Early Middle Ages",
+        "needed_fp": "16",
+        "requires": [
+            "Clapboard Houses",
+            "Heavy Cavalry"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "4,000",
+            "goods": [
+                {
+                    "good": "Limestone",
+                    "quantity": "30"
+                },
+                {
+                    "good": "Alabaster",
+                    "quantity": "14"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": [
+            "Crop Rotations",
+            "Physics"
+        ]
+    },
+    {
+        "id": "Executions",
+        "name": "Executions",
+        "age": "Early Middle Ages",
+        "needed_fp": "20",
+        "requires": [
+            "Heavy Cavalry",
+            "Armored Infantry"
+        ],
+        "unlock_costs": {
+            "coins": "2,250",
+            "supplies": "2,000",
+            "goods": [
+                {
+                    "good": "Cloth",
+                    "quantity": "28"
+                },
+                {
+                    "good": "Honey",
+                    "quantity": "20"
+                }
+            ]
+        },
+        "provides": [
+            "Gallows"
+        ],
+        "required_by": [
+            "Physics",
+            "Fertilization",
+            "Monarchy"
+        ]
+    },
+    {
+        "id": "Crop_Rotations",
+        "name": "Crop Rotations",
+        "age": "Early Middle Ages",
+        "needed_fp": "29",
+        "requires": [
+            "Bridges"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Physics",
+        "name": "Physics",
+        "age": "Early Middle Ages",
+        "needed_fp": "35",
+        "requires": [
+            "Bridges",
+            "Executions"
+        ],
+        "unlock_costs": {
+            "coins": "1,500",
+            "supplies": "3,000",
+            "goods": [
+                {
+                    "good": "Iron",
+                    "quantity": "40"
+                },
+                {
+                    "good": "Copper",
+                    "quantity": "23"
+                }
+            ]
+        },
+        "provides": [
+            "Catapult Camp"
+        ],
+        "required_by": [
+            "Counterstrategy",
+            "Quality Products",
+            "Alchemy"
+        ]
+    },
+    {
+        "id": "Fertilization",
+        "name": "Fertilization",
+        "age": "Early Middle Ages",
+        "needed_fp": "22",
+        "requires": [
+            "Executions"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "10,000",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Monarchy",
+        "name": "Monarchy",
+        "age": "Early Middle Ages",
+        "needed_fp": "24",
+        "requires": [
+            "Executions"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "3,000",
+            "goods": [
+                {
+                    "good": "Jewelry",
+                    "quantity": "70"
+                },
+                {
+                    "good": "Gold",
+                    "quantity": "30"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": []
+    }
+]

@@ -1,0 +1,471 @@
+[
+    {
+        "id": "Stilt_Houses",
+        "name": "Stilt Houses",
+        "age": "Bronze Age",
+        "needed_fp": "3",
+        "requires": [
+            "Tribal Community"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Stilt House",
+            "Flowers"
+        ],
+        "required_by": [
+            "The Wheel"
+        ]
+    },
+    {
+        "id": "Spears",
+        "name": "Spears",
+        "age": "Bronze Age",
+        "needed_fp": "3",
+        "requires": [
+            "Tribal Community"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Spearfighter Barracks",
+            "Continent Maps"
+        ],
+        "required_by": [
+            "The Wheel",
+            "Construction"
+        ]
+    },
+    {
+        "id": "Pottery",
+        "name": "Pottery",
+        "age": "Bronze Age",
+        "needed_fp": "3",
+        "requires": [
+            "Tribal Community"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Pottery"
+        ],
+        "required_by": [
+            "Construction"
+        ]
+    },
+    {
+        "id": "The_Wheel",
+        "name": "The Wheel",
+        "age": "Bronze Age",
+        "needed_fp": "4",
+        "requires": [
+            "Stilt Houses",
+            "Spears"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Slingshots",
+            "Cultivation"
+        ]
+    },
+    {
+        "id": "Construction",
+        "name": "Construction",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "Pottery",
+            "Spears"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Stone Circle"
+        ],
+        "required_by": [
+            "Chalets",
+            "Cultivation",
+            "Tools"
+        ]
+    },
+    {
+        "id": "Slingshots",
+        "name": "Slingshots",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "The Wheel"
+        ],
+        "unlock_costs": {
+            "coins": "200",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Slinger Range"
+        ],
+        "required_by": [
+            "Horseback Riding"
+        ]
+    },
+    {
+        "id": "Chalets",
+        "name": "Chalets",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "Construction"
+        ],
+        "unlock_costs": {
+            "coins": "100",
+            "supplies": "200",
+            "goods": []
+        },
+        "provides": [
+            "Chalet"
+        ],
+        "required_by": [
+            "Growing",
+            "Horseback Riding"
+        ]
+    },
+    {
+        "id": "Cultivation",
+        "name": "Cultivation",
+        "age": "Bronze Age",
+        "needed_fp": "6",
+        "requires": [
+            "The Wheel",
+            "Construction"
+        ],
+        "unlock_costs": {
+            "coins": "200",
+            "supplies": "100",
+            "goods": []
+        },
+        "provides": [
+            "Fruit Farm",
+            "Welcome Event"
+        ],
+        "required_by": [
+            "Thatched Houses"
+        ]
+    },
+    {
+        "id": "Tools",
+        "name": "Tools",
+        "age": "Bronze Age",
+        "needed_fp": "3",
+        "requires": [
+            "Construction"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "100",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Stonework",
+            "Woodwork"
+        ]
+    },
+    {
+        "id": "Growing",
+        "name": "Growing",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "Chalets"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "300",
+            "goods": []
+        },
+        "provides": [
+            "Vineyard",
+            "Dye Works"
+        ],
+        "required_by": []
+    },
+    {
+        "id": "Horseback_Riding",
+        "name": "Horseback Riding",
+        "age": "Bronze Age",
+        "needed_fp": "6",
+        "requires": [
+            "Chalets",
+            "Slingshots"
+        ],
+        "unlock_costs": {
+            "coins": "250",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Horseman Stable"
+        ],
+        "required_by": [
+            "Phalanx"
+        ]
+    },
+    {
+        "id": "Thatched_Houses",
+        "name": "Thatched Houses",
+        "age": "Bronze Age",
+        "needed_fp": "6",
+        "requires": [
+            "Cultivation"
+        ],
+        "unlock_costs": {
+            "coins": "150",
+            "supplies": "200",
+            "goods": []
+        },
+        "provides": [
+            "Thatched House",
+            "Bush",
+            "Social Bar"
+        ],
+        "required_by": [
+            "Phalanx",
+            "Smithery",
+            "Teaching"
+        ]
+    },
+    {
+        "id": "Stonework",
+        "name": "Stonework",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "Tools"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "500",
+            "goods": []
+        },
+        "provides": [
+            "Stone Mason",
+            "Marble Mason"
+        ],
+        "required_by": [
+            "Craftwork"
+        ]
+    },
+    {
+        "id": "Woodwork",
+        "name": "Woodwork",
+        "age": "Bronze Age",
+        "needed_fp": "5",
+        "requires": [
+            "Tools"
+        ],
+        "unlock_costs": {
+            "coins": "200",
+            "supplies": "100",
+            "goods": []
+        },
+        "provides": [
+            "Lumbermill"
+        ],
+        "required_by": [
+            "Craftwork"
+        ]
+    },
+    {
+        "id": "Phalanx",
+        "name": "Phalanx",
+        "age": "Bronze Age",
+        "needed_fp": "8",
+        "requires": [
+            "Horseback Riding",
+            "Thatched Houses"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "200",
+            "goods": []
+        },
+        "provides": [
+            "Warrior Barracks"
+        ],
+        "required_by": [
+            "Paths",
+            "Siege Weapons"
+        ]
+    },
+    {
+        "id": "Smithery",
+        "name": "Smithery",
+        "age": "Bronze Age",
+        "needed_fp": "8",
+        "requires": [
+            "Thatched Houses"
+        ],
+        "unlock_costs": {
+            "coins": "350",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Blacksmith",
+            "Guilds"
+        ],
+        "required_by": [
+            "Siege Weapons",
+            "Brewing"
+        ]
+    },
+    {
+        "id": "Teaching",
+        "name": "Teaching",
+        "age": "Bronze Age",
+        "needed_fp": "7",
+        "requires": [
+            "Thatched Houses"
+        ],
+        "unlock_costs": {
+            "coins": "200",
+            "supplies": "50",
+            "goods": []
+        },
+        "provides": [
+            "School",
+            "Statue"
+        ],
+        "required_by": [
+            "Brewing",
+            "Manuring"
+        ]
+    },
+    {
+        "id": "Craftwork",
+        "name": "Craftwork",
+        "age": "Bronze Age",
+        "needed_fp": "6",
+        "requires": [
+            "Stonework",
+            "Woodwork"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "None",
+            "goods": [
+                {
+                    "good": "Marble",
+                    "quantity": "2"
+                },
+                {
+                    "good": "Lumber",
+                    "quantity": "2"
+                }
+            ]
+        },
+        "provides": [],
+        "required_by": []
+    },
+    {
+        "id": "Paths",
+        "name": "Paths",
+        "age": "Bronze Age",
+        "needed_fp": "7",
+        "requires": [
+            "Phalanx"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "100",
+            "goods": []
+        },
+        "provides": [
+            "Path"
+        ],
+        "required_by": [
+            "Roof Tile Houses"
+        ]
+    },
+    {
+        "id": "Siege_Weapons",
+        "name": "Siege Weapons",
+        "age": "Bronze Age",
+        "needed_fp": "9",
+        "requires": [
+            "Phalanx",
+            "Smithery"
+        ],
+        "unlock_costs": {
+            "coins": "500",
+            "supplies": "None",
+            "goods": []
+        },
+        "provides": [
+            "Thrower Camp"
+        ],
+        "required_by": [
+            "Roof Tile Houses",
+            "Architecture"
+        ]
+    },
+    {
+        "id": "Brewing",
+        "name": "Brewing",
+        "age": "Bronze Age",
+        "needed_fp": "10",
+        "requires": [
+            "Smithery",
+            "Teaching"
+        ],
+        "unlock_costs": {
+            "coins": "150",
+            "supplies": "150",
+            "goods": []
+        },
+        "provides": [
+            "Tavern",
+            "Hedge",
+            "Friends Tavern"
+        ],
+        "required_by": [
+            "Architecture",
+            "Militia"
+        ]
+    },
+    {
+        "id": "Manuring",
+        "name": "Manuring",
+        "age": "Bronze Age",
+        "needed_fp": "8",
+        "requires": [
+            "Teaching"
+        ],
+        "unlock_costs": {
+            "coins": "None",
+            "supplies": "300",
+            "goods": []
+        },
+        "provides": [],
+        "required_by": [
+            "Militia"
+        ]
+    }
+]
