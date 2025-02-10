@@ -5,6 +5,15 @@ import json
 def obtener_archivos_json(directorio):
     return [archivo for archivo in os.listdir(directorio) if archivo.endswith('.json')]
 
+class Tech:
+    def __init__(self, nombre, edad, puntos_necesarios):
+        self.nombre = nombre
+        self.edad = edad
+        self.puntos_necesarios = puntos_necesarios
+
+    def __str__(self):
+        return f"Nombre: {self.nombre}, Edad: {self.edad}, Puntos Necesarios: {self.puntos_necesarios}"
+
 # Especificar el directorio
 directorio = './assets/json'
 json_files = obtener_archivos_json(directorio)
@@ -20,10 +29,8 @@ for archivo in json_files:
                 nombre = item.get('name', 'No especificado')
                 edad = item.get('age', 'No especificado')
                 puntos_necesarios = item.get('needed_fp', 'No especificado')
-                print(f"Archivo: {archivo}")
-                print(f"Nombre: {nombre}")
-                print(f"Edad: {edad}")
-                print(f"Puntos Necesarios: {puntos_necesarios}")
+                tech = Tech(nombre, edad, puntos_necesarios)
+                print(tech)
                 print('-' * 40)
         else:
             print(f"El archivo {archivo} no contiene una lista de objetos.")
